@@ -14,7 +14,7 @@ from solution import solution
 def BAT(objf,lb,ub,dim,N,Max_iteration):
     
     n=N;      # Population size
-
+fmin = float("inf")
     if not isinstance(lb, list):
         lb = [lb] * dim
     if not isinstance(ub, list):
